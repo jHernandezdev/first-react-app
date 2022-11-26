@@ -11,9 +11,9 @@ function Button(props) {
 }
 
 //Display
-function Display(props){
+function Display({message}){
     return (
-        <div>{props.message}</div>
+        <div>{message}</div>
     );
 }
 

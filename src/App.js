@@ -1,10 +1,10 @@
-import Counter from './Counter';
+import StarMatch from './StarMatchGame';
 import './App.css';
 
 function App() {
   return (
     <div className="App">      
-      <Counter />
+      <StarMatch />
     </div>
   );
 }
